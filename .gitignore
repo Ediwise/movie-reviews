@@ -1,0 +1,25 @@
+# Global .gitignore for the entire project
+
+# Backend-specific rules
+/backend/node_modules/
+/backend/.env
+
+# Frontend-specific rules
+/frontend/node_modules/
+/frontend/build/
+
+# Common rules
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# IDE-specific rules
+.vscode/
+.idea/
+
+# Debug and runtime logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
